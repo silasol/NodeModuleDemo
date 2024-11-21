@@ -1,3 +1,3 @@
-import { greet } from 'onescript';
+const {ui,greet} = require('onescript');
 
-greet('world');
+ui.toast("hello,test");
